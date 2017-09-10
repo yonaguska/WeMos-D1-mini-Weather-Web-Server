@@ -72,7 +72,7 @@ Adding OpenWeatherMap.org connectivity
 <LI><A HREF="http://educ8s.tv/esp8266-weather-display/">this gave me the idea</A></LI>
 <LI><A HREF="http://openweathermap.org/appid">this is the OpenWeatherMap web site</A></LI>
 <LI><A HREF="http://openweathermap.org/current">this is how to get weather from one location (using city ID)</A></LI>
-<LI><A HREF="http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere">An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</A></LI>
+<LI>http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</LI>
 </P>
 <P>
 <A HREF="https://bblanchon.github.io/ArduinoJson/assistant/">Decoding the JSON response of OpenWeatherMap is easier to understand using this little web app
