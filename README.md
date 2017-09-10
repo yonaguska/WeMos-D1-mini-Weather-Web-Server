@@ -69,21 +69,17 @@ I discovered I had made a mistake, using the wrong address and a minor wiring er
 http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/
 
 Adding OpenWeatherMap.org connectivity
-http://educ8s.tv/esp8266-weather-display/ this gave me the idea
-http://openweathermap.org/appid this is the OpenWeatherMap web site
-http://openweathermap.org/current this is how to get weather from one location (using city ID)
-    An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)
-    http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere
+<LI><HREF="http://educ8s.tv/esp8266-weather-display/">this gave me the idea</A></LI>
+<LI><HREF="http://openweathermap.org/appid this is the OpenWeatherMap web site</A></LI>
+<LI><HREF="http://openweathermap.org/current this is how to get weather from one location (using city ID)</A></LI>
+<LI><HREF="http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere">An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</A></LI>
 
-Decoding the JSON response of OpenWeatherMap is easier to understand using this little web app
-You paste in the response (from a browser that doesn’t format it) and it shows you the code required for pulling out the data
-https://bblanchon.github.io/ArduinoJson/assistant/
+<A HREF="https://bblanchon.github.io/ArduinoJson/assistant/">Decoding the JSON response of OpenWeatherMap is easier to understand using this little web app
+You paste in the response (from a browser that doesn’t format it) and it shows you the code required for pulling out the data</A>
 
-To avoid hardcoding the SSID and password, I used the WiFiManager
-http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/
+<A HREF="http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/">To avoid hardcoding the SSID and password, I used the WiFiManager</A>
 
-We mapped the wind direction to compass ordinals
-https://images.search.yahoo.com/yhs/search;_ylt=A0LEViq1qbVZ354ATuwPxQt.?p=compass+ordinals&fr=yhs-adk-adk_sbnt&fr2=piv-web&hspart=adk&hsimp=yhs-adk_sbnt&type=we_appfocus1_cr#id=6&iurl=http%3A%2F%2F1.bp.blogspot.com%2F-QhDomqp-KVs%2FU_dma4AnG9I%2FAAAAAAAAOhU%2F-NsWTzOPGF4%2Fs1600%2F210A-Image%252BCompass%252BPoints.jpg&action=click
+<A HREF="https://images.search.yahoo.com/yhs/search;_ylt=A0LEViq1qbVZ354ATuwPxQt.?p=compass+ordinals&fr=yhs-adk-adk_sbnt&fr2=piv-web&hspart=adk&hsimp=yhs-adk_sbnt&type=we_appfocus1_cr#id=6&iurl=http%3A%2F%2F1.bp.blogspot.com%2F-QhDomqp-KVs%2FU_dma4AnG9I%2FAAAAAAAAOhU%2F-NsWTzOPGF4%2Fs1600%2F210A-Image%252BCompass%252BPoints.jpg&action=click">We mapped the wind direction to compass ordinals</A>
 
 
 
