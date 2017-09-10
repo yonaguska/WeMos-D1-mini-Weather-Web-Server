@@ -28,63 +28,59 @@ Project details:
 ==================================================================================
 <A HREF="http://embedded-lab.com/blog/making-simple-weather-web-server-using-esp8266-bme280/">The core of the project is here</A>
 
-
-
+<P>
 Drivers for NodeMCU and ESPs (for Windows, Mac and Linux)
 <LI><A HREF="http://www.14core.com/drivers/">core drivers</A></LI>
 <LI><A HREF="https://www.14core.com/installing-nodemcu-driver-on-mac/">Installing on a Mac (there's also a page for Windows)</A></LI>
-
-
+</P>
+<P>
 Adafruit Libraries and usage:
 <LI><A HREF="https://github.com/adafruit/Adafruit_Sensor">AdaFruit Sensor Library</A></LI>
 <LI><A HREF="https://github.com/adafruit/Adafruit_BME280_Library">AdaFruit BME280 Library</A></LI>
 <LI><A HREF="https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/how-to-install-a-library">How to install an Arduino library</A></LI>
 <LI><A HREF="https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout">BME280 breakout</A></LI>
 <LI><A HREF="https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/wiring-and-test">BME280 wiring and test</A></LI>
-
-
+</P>
+<P>
 <A HREF="https://nodemcu.readthedocs.io/en/master/en/modules/bme280/">NodeMCU’s documentation for BME280 (core reference, Adafriut’s is a little different)</A>
-
-
+</P>
+<P>
 <A HREF="http://nodemcu.readthedocs.io/en/master/en/modules/i2c/">NodeMCU’s IIC documentation (fyi only)</A>
-
-
+</P>
+<P>
 <A HREF="https://wiki.wemos.cc/products:d1:d1_mini">WeMos D1 mini documentation (pinout)</A>
-
-
+</P>
+<P>
 Time Functions:
 <LI><A HREF="http://www.geekstips.com/arduino-time-sync-ntp-server-esp8266-udp/">Geek's tip on NTP</A></LI>
 <LI><A HREF="https://www.pjrc.com/teensy/td_libs_Time.html">Teensyduino time</A></LI>
-
-
+</P>
+<P>
 <A HREF="http://www.14core.com/how-to-install-esplorer-ide-in-multiple-platform/">An IDE (not Arduino) for ESP development; I used Arduino</A>
-
-
+</P>
+<P>
 <A HREF="https://www.letscontrolit.com/forum/viewtopic.php?f=5&t=2780">I can’t seem to flash my ESP-01s, that’s why I used a NodeMCU, it’s easier</A>
-
+</P>
+<P>
 <A HREF="http://embedded-lab.com/blog/tutorial-6-esp8266-bme280-make-localremote-weather-station/ ">Addition of the OLED</A>
-
-
+</P>
+<P>
 <A HREF="http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/">Making the OLED work…it’s at address 0x3C, change it in the library…and the code</A> I discovered I had made a mistake, using the wrong address and a minor wiring error (reversed the clock and data lines)
-
-
+</P>
+<P>
 Adding OpenWeatherMap.org connectivity
 <LI><A HREF="http://educ8s.tv/esp8266-weather-display/">this gave me the idea</A></LI>
 <LI><A HREF="http://openweathermap.org/appid">this is the OpenWeatherMap web site</A></LI>
 <LI><A HREF="http://openweathermap.org/current">this is how to get weather from one location (using city ID)</A></LI>
 <LI><A HREF="http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere">An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</A></LI>
-
-
+</P>
+<P>
 <A HREF="https://bblanchon.github.io/ArduinoJson/assistant/">Decoding the JSON response of OpenWeatherMap is easier to understand using this little web app
 You paste in the response (from a browser that doesn’t format it) and it shows you the code required for pulling out the data</A>
-
+</P>
+<P>
 <A HREF="http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/">To avoid hardcoding the SSID and password, I used the WiFiManager</A>
-
+</P>
+<P>
 <A HREF="https://images.search.yahoo.com/yhs/search;_ylt=A0LEViq1qbVZ354ATuwPxQt.?p=compass+ordinals&fr=yhs-adk-adk_sbnt&fr2=piv-web&hspart=adk&hsimp=yhs-adk_sbnt&type=we_appfocus1_cr#id=6&iurl=http%3A%2F%2F1.bp.blogspot.com%2F-QhDomqp-KVs%2FU_dma4AnG9I%2FAAAAAAAAOhU%2F-NsWTzOPGF4%2Fs1600%2F210A-Image%252BCompass%252BPoints.jpg&action=click">We mapped the wind direction to compass ordinals</A>
-
-
-
-
-
-
-
+</P>
