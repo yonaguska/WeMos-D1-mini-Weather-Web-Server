@@ -1,6 +1,18 @@
-# WeMos-D1-mini-Weather-Web-Server
+Weather server on NodeMCU
 
-Here are my notes colelcted through the course of creating this Weather Web Server
+Parts list from Aliexpress (eBay will also have these)
+
+Wemos D1 mini
+https://www.aliexpress.com/item/ESP8266-ESP-12-USB-WeMos-D1-Mini-WIFI-Development-Board-D1-Mini-NodeMCU-Lua-IOT-Board/32829531277.html?spm=2114.search0204.3.18.mkljsH&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_5490020_10068_5470017_5560011_10307_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_5460020_10338_10103_10102_440_10052_10053_10107_10050_10142_10051_10324_10325_5380020_10326_10084_513_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_143_5570011_10312_10313_10314_10078_10079_10073_5550017,searchweb201603_18,ppcSwitch_4_ppcChannel&btsid=695e591f-432a-4222-9c73-e8f40b67ca57&algo_expid=a0bc7d45-b95f-4f0d-9695-db6623a85ef1-2&algo_pvid=a0bc7d45-b95f-4f0d-9695-db6623a85ef1
+
+Blue OLED display
+https://www.aliexpress.com/item/20pcs-Free-Shipping-White-Blue-White-and-Blue-color-0-96-inch-128X64-OLED-Display-Module/32727927917.html?spm=a2g0s.9042311.0.0.C9chG9
+
+BME280 Digital Sensor - temperature, humidity and barometric pressure
+https://www.aliexpress.com/item/Free-shipping-BME280-Digital-Sensor-Temperature-Humidity-Barometric-Pressure-Sensor-Module-GY-BME280-I2C-SPI-1/32829699334.html?spm=2114.search0204.3.150.EysWqm&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_5490020_10068_5560011_5550020_10307_10137_10060_10155_10154_10056_10055_10054_5470020_10059_100031_10099_5460020_10338_10103_10102_440_10052_10053_10107_10050_10142_10051_10324_10325_5380020_10326_10084_513_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_143_5570011_10312_10313_10314_10078_10079_10073,searchweb201603_18,ppcSwitch_4_ppcChannel&btsid=5b876f03-631a-4cfa-b493-6cef54d45bf8&algo_expid=5fe2def1-214e-40b3-952a-2bfee48ca0e5-20&algo_pvid=5fe2def1-214e-40b3-952a-2bfee48ca0e5
+
+Micro USB cable, for programming and power
+https://www.aliexpress.com/item/Suntaiho-NEW-Nylon-Micro-USB-Cable-Fast-Charging-Adapter-5V2-1A-8pin-25CM-1M-2M-3M/32696694333.html?spm=2114.search0204.3.40.WQ30bz&s=p&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_5490020_10068_5470017_5560011_10307_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_5460020_10338_10103_10102_440_10052_10053_10107_10050_10142_10051_10324_10325_5380020_10326_10084_513_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_143_5570011_10312_10313_10314_10078_10079_10073_5550017,searchweb201603_18,ppcSwitch_4_ppcChannel&btsid=893ddb45-8d08-4b4c-9f67-438f3e352d7f
 
 The core of the project is here:
 http://embedded-lab.com/blog/making-simple-weather-web-server-using-esp8266-bme280/
@@ -21,6 +33,9 @@ https://nodemcu.readthedocs.io/en/master/en/modules/bme280/
 
 NodeMCU’s IIC documentation (fyi only):
 http://nodemcu.readthedocs.io/en/master/en/modules/i2c/
+
+WeMos D1 mini documentation (pinout)
+https://wiki.wemos.cc/products:d1:d1_mini
 
 Time Functions:
 http://www.geekstips.com/arduino-time-sync-ntp-server-esp8266-udp/
@@ -57,4 +72,9 @@ http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP82
 We mapped the wind direction to compass ordinals
 https://images.search.yahoo.com/yhs/search;_ylt=A0LEViq1qbVZ354ATuwPxQt.?p=compass+ordinals&fr=yhs-adk-adk_sbnt&fr2=piv-web&hspart=adk&hsimp=yhs-adk_sbnt&type=we_appfocus1_cr#id=6&iurl=http%3A%2F%2F1.bp.blogspot.com%2F-QhDomqp-KVs%2FU_dma4AnG9I%2FAAAAAAAAOhU%2F-NsWTzOPGF4%2Fs1600%2F210A-Image%252BCompass%252BPoints.jpg&action=click
 
-You should be able to use my ino file and simply tweak the OpenWeatherMap CityID and APPID values to get your node running.
+
+
+
+
+
+
