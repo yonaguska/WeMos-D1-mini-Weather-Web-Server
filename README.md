@@ -2,8 +2,6 @@
 
 Here are my notes colelcted through the course of creating this Weather Web Server
 
-Weather server on NodeMCU
-
 The core of the project is here:
 http://embedded-lab.com/blog/making-simple-weather-web-server-using-esp8266-bme280/
 
