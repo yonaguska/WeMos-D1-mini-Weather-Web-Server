@@ -1,4 +1,5 @@
-Weather server on NodeMCU
+Weather server on Wemos D1 mini
+==================================================================================
 
 Parts list from Aliexpress (eBay will also have these)
 ==================================================================================
