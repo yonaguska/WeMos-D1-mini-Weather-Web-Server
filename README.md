@@ -1,5 +1,8 @@
 Weather server on Wemos D1 mini
 ==================================================================================
+Initially I was going to implement a project I saw on the web, but that seemed too simple and limited. I added code that avoids having to embed your SSID and Password in the code. I augmented the code to include an API call to a weather service that gave me my loacal sea level pressure, from which I derived my altitude. I added code to map the wind direction to compass ordinals. There's more I want to do, like upload the data to either a web service or my own InfluxDB so I can accumulate the readings and plot them on a web page.
+
+
 
 I have constructed a small Weather Web Server based on a Wemos D2 mini, an OLED display and a BME280 sensor. It was programmed using the Arduino IDE and implements a collection of capabilities I borrowed from several other projects I found on around the web. Features include:
 <LI>Connectivity to your home Wifi to publish a web page containing data collected by the program</LI>
@@ -8,9 +11,6 @@ I have constructed a small Weather Web Server based on a Wemos D2 mini, an OLED 
 <LI>Dew point and altitude from a library for the BME280</LI>
 <LI>Wind speed, direction and map co-ordinates from an API to a service</LI> 
 <LI>Mapping of the wind direction to one of the 32 compass ordinals</LI>
-
-
-Initially I was going to implement a project I saw on the web, but that seemed too simple and limited. I added code that avoids having to embed your SSID and Password in the code. I augmented the code to include an API call to a weather service that gave me my loacal sea level pressure, from which I derived my altitude. I added code to map the wind direction to compass ordinals. There's more I want to do, like upload the data to either a web service or my own InfluxDB so I can accumulate the readings and plot them on a web page.
 
 
 Parts list from Aliexpress (eBay will also have these)
