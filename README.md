@@ -69,10 +69,10 @@ I discovered I had made a mistake, using the wrong address and a minor wiring er
 http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/
 
 Adding OpenWeatherMap.org connectivity
-<LI><HREF="http://educ8s.tv/esp8266-weather-display/">this gave me the idea</A></LI>
-<LI><HREF="http://openweathermap.org/appid this is the OpenWeatherMap web site</A></LI>
-<LI><HREF="http://openweathermap.org/current this is how to get weather from one location (using city ID)</A></LI>
-<LI><HREF="http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere">An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</A></LI>
+<LI><A HREF="http://educ8s.tv/esp8266-weather-display/">this gave me the idea</A></LI>
+<LI><A HREF="http://openweathermap.org/appid this is the OpenWeatherMap web site</A></LI>
+<LI><A HREF="http://openweathermap.org/current this is how to get weather from one location (using city ID)</A></LI>
+<LI><A HREF="http://api.openweathermap.org/data/2.5/weather?id=YourCityIDGoesHere&APPID=YourOpenWeatherAPPIDGoesHere">An example of the API call you can put into your browser (you have to subscribe to the service to get your APPID and get a list of the cityIDs)</A></LI>
 
 <A HREF="https://bblanchon.github.io/ArduinoJson/assistant/">Decoding the JSON response of OpenWeatherMap is easier to understand using this little web app
 You paste in the response (from a browser that doesn’t format it) and it shows you the code required for pulling out the data</A>
