@@ -1,6 +1,7 @@
 Weather server on NodeMCU
 
 Parts list from Aliexpress (eBay will also have these)
+==================================================================================
 
 Wemos D1 mini
 https://www.aliexpress.com/item/ESP8266-ESP-12-USB-WeMos-D1-Mini-WIFI-Development-Board-D1-Mini-NodeMCU-Lua-IOT-Board/32829531277.html?spm=2114.search0204.3.18.mkljsH&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_5490020_10068_5470017_5560011_10307_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_5460020_10338_10103_10102_440_10052_10053_10107_10050_10142_10051_10324_10325_5380020_10326_10084_513_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_143_5570011_10312_10313_10314_10078_10079_10073_5550017,searchweb201603_18,ppcSwitch_4_ppcChannel&btsid=695e591f-432a-4222-9c73-e8f40b67ca57&algo_expid=a0bc7d45-b95f-4f0d-9695-db6623a85ef1-2&algo_pvid=a0bc7d45-b95f-4f0d-9695-db6623a85ef1
@@ -13,6 +14,9 @@ https://www.aliexpress.com/item/Free-shipping-BME280-Digital-Sensor-Temperature-
 
 Micro USB cable, for programming and power
 https://www.aliexpress.com/item/Suntaiho-NEW-Nylon-Micro-USB-Cable-Fast-Charging-Adapter-5V2-1A-8pin-25CM-1M-2M-3M/32696694333.html?spm=2114.search0204.3.40.WQ30bz&s=p&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_5490020_10068_5470017_5560011_10307_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_5460020_10338_10103_10102_440_10052_10053_10107_10050_10142_10051_10324_10325_5380020_10326_10084_513_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_143_5570011_10312_10313_10314_10078_10079_10073_5550017,searchweb201603_18,ppcSwitch_4_ppcChannel&btsid=893ddb45-8d08-4b4c-9f67-438f3e352d7f
+
+Project details:
+==================================================================================
 
 The core of the project is here:
 http://embedded-lab.com/blog/making-simple-weather-web-server-using-esp8266-bme280/
