@@ -7,7 +7,7 @@ Initially I was going to implement a project I saw on the web, but that seemed t
 I have constructed a small Weather Web Server based on a Wemos D2 mini, an OLED display and a BME280 sensor. It was programmed using the Arduino IDE and implements a collection of capabilities I borrowed from several other projects I found around the web. Features include:
 <LI>Connectivity to your home Wifi to publish a web page containing data collected by the program</LI>
 <LI>Date and Time from NIST</LI>
-<LI>emperature, Humidity and Barometric pressure from the BME280 sensor</LI>
+<LI>Temperature, Humidity and Barometric pressure from the BME280 sensor</LI>
 <LI>Dew point and altitude from a library for the BME280</LI>
 <LI>Wind speed, direction and map co-ordinates from an API to a service</LI> 
 <LI>Mapping of the wind direction to one of the 32 compass ordinals</LI>
