@@ -54,6 +54,7 @@ Adafruit Libraries and usage:
 Time Functions:
 <LI><A HREF="http://www.geekstips.com/arduino-time-sync-ntp-server-esp8266-udp/">Geek's tip on NTP</A></LI>
 <LI><A HREF="https://www.pjrc.com/teensy/td_libs_Time.html">Teensyduino time</A></LI>
+<LI><A HREF="https://github.com/JChristensen/Timezone">JChristensen library to correct NTP time to local, correcting for timezone and DST</A></LI>
 </P>
 <P>
 <A HREF="http://www.14core.com/how-to-install-esplorer-ide-in-multiple-platform/">An IDE (not Arduino) for ESP development; I used Arduino</A>
