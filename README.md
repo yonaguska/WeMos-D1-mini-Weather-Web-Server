@@ -81,6 +81,8 @@ You paste in the response (from a browser that doesn’t format it) and it shows
 </P>
 <P>
 <A HREF="http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/">To avoid hardcoding the SSID and password, I used the WiFiManager</A>
+</P>
+<P>
 <A HREF="http://forum.hobbycomponents.com/viewtopic.php?f=39&t=1365">Using DS1307 RTC and its Memory chip</A>
 </P>
 <P>
