@@ -81,6 +81,7 @@ You paste in the response (from a browser that doesn’t format it) and it shows
 </P>
 <P>
 <A HREF="http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/">To avoid hardcoding the SSID and password, I used the WiFiManager</A>
+<A HREF="http://forum.hobbycomponents.com/viewtopic.php?f=39&t=1365">Using DS1307 RTC and its Memory chip</A>
 </P>
 <P>
 <A HREF="https://images.search.yahoo.com/yhs/search;_ylt=A0LEViq1qbVZ354ATuwPxQt.?p=compass+ordinals&fr=yhs-adk-adk_sbnt&fr2=piv-web&hspart=adk&hsimp=yhs-adk_sbnt&type=we_appfocus1_cr#id=6&iurl=http%3A%2F%2F1.bp.blogspot.com%2F-QhDomqp-KVs%2FU_dma4AnG9I%2FAAAAAAAAOhU%2F-NsWTzOPGF4%2Fs1600%2F210A-Image%252BCompass%252BPoints.jpg&action=click">We mapped the wind direction to compass ordinals</A>
