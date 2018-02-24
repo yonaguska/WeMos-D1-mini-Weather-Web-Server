@@ -44,7 +44,7 @@ Adafruit Libraries and usage:
 <LI><A HREF="https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/wiring-and-test">BME280 wiring and test</A></LI>
 </P>
 <P>
-<A HREF="https://nodemcu.readthedocs.io/en/master/en/modules/bme280/">NodeMCU’s documentation for BME280 (core reference, Adafriut’s is a little different)</A>
+<A HREF="https://nodemcu.readthedocs.io/en/master/en/modules/bme280/">NodeMCU’s documentation for BME280 (core reference, Adafruit’s is a little different)</A>
 </P>
 <P>
 <A HREF="http://nodemcu.readthedocs.io/en/master/en/modules/i2c/">NodeMCU’s IIC documentation (fyi only)</A>
